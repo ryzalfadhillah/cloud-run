@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get("/", (req, res) => {
-	res.send('Perubahan pertama');
+	res.send('Cloud run');
 });
 
 const PORT = process.env.PORT || 8080;
